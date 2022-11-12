@@ -1,0 +1,40 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#__next{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 350px;
+  }
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 200px;
+    gap: 10px;
+}
+.change{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 100px;
+}
